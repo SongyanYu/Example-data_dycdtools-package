@@ -1,0 +1,24 @@
+<#3>
+Okareka morphometry file
+-38	# latitude
+353.9	# crest height above msl
+5	# number of inflows
+SURF 70.0	0.001	0.016	MILLAR		# ht, 1/2-angle, slope, drag coeff, name"
+SURF 70.0	0.001	0.016	SUMMIT		# ht, 1/2-angle, slope, drag coeff, name"
+SURF 70.0	0.001	0.016	FARM		# ht, 1/2-angle, slope, drag coeff, name"
+SURF 70.0	0.001	0.016	GROUNDWATER	# ht, 1/2-angle, slope, drag coeff, name"
+SURF 70.0	0.001	0.016	SEPTIC		# ht, 1/2-angle, slope, drag coeff, name"
+0.0			# zero-ht elevation [m]
+34.1		# crest elevation [m]
+1			# number of outlets
+30.0 			# outlet elevations [m]
+8			# number of stg survey points after header
+Elev [m]	A [m^2]
+3.5     508220
+8.5	    1451800
+13.5	1776400
+18.5	2121600
+23.5	2479800
+28.5	2855100
+33.5	3325500
+34.5	3325500

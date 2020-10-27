@@ -1,0 +1,203 @@
+InitDySimIO_OK:  ncid =     3
+WordSymbols_OK:  the output attributes:-
+   TEMPTURE
+   totNumOfProfiles = 5457
+   Attributes selected for profile output:
+   i =   1   paramName = TEMPTURE
+numOutputSelections = 1   numOutflowAttribs = 1
+   maxNumOfWetLayers = 144
+   netCDFVarName = dyresmLAYER_HTS_Var
+   netCDFVarName = dyresmTime
+   netCDFVarName = dyresmLayerCount
+   i =   1   netCDFVarName = dyresmTEMPTURE_Var
+========== SetSizesForOutflows_OK  ENTRY POINT
+
+   numOutflowDevices = 2   numOutletDevices = 1
+   numOutflowAttribs = 1
+   numOutflowsPerDevice = 5457
+========== SetSizesForMetAndAtmos_OK  ENTRY POINT
+
+   totNumOfTimeSteps = 43656
+numberStr :   1                                                              
+variableName: stream_1_VOL                                                    
+numberStr :   1                                                              
+variableName: stream_1_TEMPTURE                                               
+numberStr :   1                                                              
+variableName: stream_1_SALINITY                                               
+numberStr :   1                                                              
+variableName: stream_1_DO                                                     
+numberStr :   1                                                              
+variableName: stream_1_SSOL1                                                  
+numberStr :   1                                                              
+variableName: stream_1_SSOL2                                                  
+numberStr :   1                                                              
+variableName: stream_1_PO4                                                    
+numberStr :   1                                                              
+variableName: stream_1_DOPL                                                   
+numberStr :   1                                                              
+variableName: stream_1_POPL                                                   
+numberStr :   1                                                              
+variableName: stream_1_NH4                                                    
+numberStr :   1                                                              
+variableName: stream_1_NO3                                                    
+numberStr :   1                                                              
+variableName: stream_1_DONL                                                   
+numberStr :   1                                                              
+variableName: stream_1_PONL                                                   
+numberStr :   1                                                              
+variableName: stream_1_DOCL                                                   
+numberStr :   1                                                              
+variableName: stream_1_POCL                                                   
+numberStr :   1                                                              
+variableName: stream_1_SiO2                                                   
+numberStr :   1                                                              
+variableName: stream_1_FDIAT                                                  
+numberStr :   1                                                              
+variableName: stream_1_CHLOR                                                  
+numberStr :   2                                                              
+variableName: stream_2_VOL                                                    
+numberStr :   2                                                              
+variableName: stream_2_TEMPTURE                                               
+numberStr :   2                                                              
+variableName: stream_2_SALINITY                                               
+numberStr :   2                                                              
+variableName: stream_2_DO                                                     
+numberStr :   2                                                              
+variableName: stream_2_SSOL1                                                  
+numberStr :   2                                                              
+variableName: stream_2_SSOL2                                                  
+numberStr :   2                                                              
+variableName: stream_2_PO4                                                    
+numberStr :   2                                                              
+variableName: stream_2_DOPL                                                   
+numberStr :   2                                                              
+variableName: stream_2_POPL                                                   
+numberStr :   2                                                              
+variableName: stream_2_NH4                                                    
+numberStr :   2                                                              
+variableName: stream_2_NO3                                                    
+numberStr :   2                                                              
+variableName: stream_2_DONL                                                   
+numberStr :   2                                                              
+variableName: stream_2_PONL                                                   
+numberStr :   2                                                              
+variableName: stream_2_DOCL                                                   
+numberStr :   2                                                              
+variableName: stream_2_POCL                                                   
+numberStr :   2                                                              
+variableName: stream_2_SiO2                                                   
+numberStr :   2                                                              
+variableName: stream_2_FDIAT                                                  
+numberStr :   2                                                              
+variableName: stream_2_CHLOR                                                  
+numberStr :   3                                                              
+variableName: stream_3_VOL                                                    
+numberStr :   3                                                              
+variableName: stream_3_TEMPTURE                                               
+numberStr :   3                                                              
+variableName: stream_3_SALINITY                                               
+numberStr :   3                                                              
+variableName: stream_3_DO                                                     
+numberStr :   3                                                              
+variableName: stream_3_SSOL1                                                  
+numberStr :   3                                                              
+variableName: stream_3_SSOL2                                                  
+numberStr :   3                                                              
+variableName: stream_3_PO4                                                    
+numberStr :   3                                                              
+variableName: stream_3_DOPL                                                   
+numberStr :   3                                                              
+variableName: stream_3_POPL                                                   
+numberStr :   3                                                              
+variableName: stream_3_NH4                                                    
+numberStr :   3                                                              
+variableName: stream_3_NO3                                                    
+numberStr :   3                                                              
+variableName: stream_3_DONL                                                   
+numberStr :   3                                                              
+variableName: stream_3_PONL                                                   
+numberStr :   3                                                              
+variableName: stream_3_DOCL                                                   
+numberStr :   3                                                              
+variableName: stream_3_POCL                                                   
+numberStr :   3                                                              
+variableName: stream_3_SiO2                                                   
+numberStr :   3                                                              
+variableName: stream_3_FDIAT                                                  
+numberStr :   3                                                              
+variableName: stream_3_CHLOR                                                  
+numberStr :   4                                                              
+variableName: stream_4_VOL                                                    
+numberStr :   4                                                              
+variableName: stream_4_TEMPTURE                                               
+numberStr :   4                                                              
+variableName: stream_4_SALINITY                                               
+numberStr :   4                                                              
+variableName: stream_4_DO                                                     
+numberStr :   4                                                              
+variableName: stream_4_SSOL1                                                  
+numberStr :   4                                                              
+variableName: stream_4_SSOL2                                                  
+numberStr :   4                                                              
+variableName: stream_4_PO4                                                    
+numberStr :   4                                                              
+variableName: stream_4_DOPL                                                   
+numberStr :   4                                                              
+variableName: stream_4_POPL                                                   
+numberStr :   4                                                              
+variableName: stream_4_NH4                                                    
+numberStr :   4                                                              
+variableName: stream_4_NO3                                                    
+numberStr :   4                                                              
+variableName: stream_4_DONL                                                   
+numberStr :   4                                                              
+variableName: stream_4_PONL                                                   
+numberStr :   4                                                              
+variableName: stream_4_DOCL                                                   
+numberStr :   4                                                              
+variableName: stream_4_POCL                                                   
+numberStr :   4                                                              
+variableName: stream_4_SiO2                                                   
+numberStr :   4                                                              
+variableName: stream_4_FDIAT                                                  
+numberStr :   4                                                              
+variableName: stream_4_CHLOR                                                  
+numberStr :   5                                                              
+variableName: stream_5_VOL                                                    
+numberStr :   5                                                              
+variableName: stream_5_TEMPTURE                                               
+numberStr :   5                                                              
+variableName: stream_5_SALINITY                                               
+numberStr :   5                                                              
+variableName: stream_5_DO                                                     
+numberStr :   5                                                              
+variableName: stream_5_SSOL1                                                  
+numberStr :   5                                                              
+variableName: stream_5_SSOL2                                                  
+numberStr :   5                                                              
+variableName: stream_5_PO4                                                    
+numberStr :   5                                                              
+variableName: stream_5_DOPL                                                   
+numberStr :   5                                                              
+variableName: stream_5_POPL                                                   
+numberStr :   5                                                              
+variableName: stream_5_NH4                                                    
+numberStr :   5                                                              
+variableName: stream_5_NO3                                                    
+numberStr :   5                                                              
+variableName: stream_5_DONL                                                   
+numberStr :   5                                                              
+variableName: stream_5_PONL                                                   
+numberStr :   5                                                              
+variableName: stream_5_DOCL                                                   
+numberStr :   5                                                              
+variableName: stream_5_POCL                                                   
+numberStr :   5                                                              
+variableName: stream_5_SiO2                                                   
+numberStr :   5                                                              
+variableName: stream_5_FDIAT                                                  
+numberStr :   5                                                              
+variableName: stream_5_CHLOR                                                  
+   withdrawal_Outlet_Vol                                           
+   ======= DYRESM-CAEDYM simulation completed =======
+Stop - Program terminated.

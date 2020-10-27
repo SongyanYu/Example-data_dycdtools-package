@@ -1,0 +1,4 @@
+Parameter,Description,Min,Max,N_values,Input_file,Line_NO
+wse,Wind stirring efficiency,0.2,0.8,2,Okareka.par,12
+vmc,Vertical mixing coefficient,100,700,2,Okareka.par,15
+lec,Light extinction coefficient,0.1,0.25,2,Okareka.bio,7

@@ -1,0 +1,75 @@
+! CAEDYM v3 Configuration File:	Rerewhakaaitu
+3.2                       CAEDYM Version Number
+!-------------------------------------------------------------------------------!
+! I/O Configuration:
+Okareka.bio		Biological parameters file
+Okareka.chm		Geo-chemistry database file
+Okareka.sed		Sediment parameters file
+Okareka.int		Initial conditions file
+NULL			Inflow forcing file
+NULL			3D forcing file
+T			Print progress messages to screen
+T			Write debug information to file (caedym_debug.out)
+1.0			Print time step (days)      
+720.0			Time series time step (minutes)
+1 1 0			Time series location
+T			Print integrated time series files
+!-------------------------------------------------------------------------------!
+! Biological Configuration:
+! PHYTOPLANKTON ----------
+ 2                        Number of PHYTOPLANKTON groups to simulate
+  4 7                     Chosen groups to simulate
+ 1                        Currency (units): 1=Chl;2=C.&Chl params;3=C. &C params
+ 2                        Number of phyto groups with dynamic nitrogen stores
+  4 7                     Chosen phyto groups with internal nitrogen stores
+ 2                        Number of phyto groups with dynamic phosphorus stores
+  4 7                     Chosen phyto groups with internal phosphorus stores
+ 0                        Number of phyto groups with internal carbon stores
+ 0                        Number of phyto groups with toxin/metabolite production 
+ 0                        Number of groups able to fix nitrogen
+ 0.1                      Minimum allowable biomass for phytoplankton
+ T                        Direction of advection of motile phytoplankton
+ F                        Stokes settling into the sediment
+ F                        Motile settling into the sediment
+ 0                        Phytoplankton time series group
+! ZOOPLANKTON ------------
+ 0                        Number of ZOOPLANKTON Groups to simulate
+ 0.02			  Minimum allowable biomass for zooplankton
+ 0                        Zooplankton time series group
+! FISH -------------------
+ 0                        Number of FISH groups to simulate 
+ 0                        Fish time series group
+ 0                        Number of fish EGG/LARVAE cohorts
+! MISCELLANEOUS ----------
+ 0                        Number of PATHOGEN groups to simulate
+ 0                        Number of JELLYFISH groups to simulate
+ 0                        Number of SEAGRASS groups to simulate
+ 0                        Number of MACROALGAE groups to simulate
+ 0                        Number of CLAM/MUSSEL groups to simulate
+ 0                        Number of other INVERTEBRATE groups to simulate
+ 1e-2                     Minimum allowable biomass for all other species
+!-------------------------------------------------------------------------------!
+! Nutrient/Chemistry Configuration:
+ 2                        Simulate suspended solids  (SSOL1, SSOL2) (set to "2" to run both SSOL1 and SSOL2)
+ F                        Simulate refractory OM pools (POMR, DOMR)
+ F                        Simulate Bacterial Biomass          (BAC)
+ 0                        Simulate Biologically Active Components
+ F                        Type of sediment model (F=STATIC;T=CANDI)
+ F                        Simulate Geochemistry Module (has to be T if running CANDI)
+ 1                        Geochemistry time-step (days) 0 means CAEDYM time step
+ 9                       Number of chemical components (excluding H+, H2O, e-)
+   PO4 NO3 NH4 FeII FeIII SO4 H2S CH4 DIC !!!!  MnII MnIV SiO2 Cl Ca Na K Mg
+ 1                        Number of minerals/pure phases to include
+  Fe(OH)3_a ! FeS(ppt) Calcite Birnessite Siderite Rhodchros Aragonite Birnessite  
+!-------------------------------------------------------------------------------!
+! Miscellaneous Configuration:
+ T               settf    Simulate settling (& migration for phytos)
+ T               resuf    Simulate resuspension
+ F               colf     Simulate colour / tracer
+ 0               exrf     Experimental configuration flag
+ 0               nera     3D variables subject to error analysis
+ T               for3df   Forcing domain for 3D forcing
+ T               inflag   Sparse locations where inflows are written
+ 0               obf      Open boundary condition type (0 = no open boundaries)
+ 0               wmode    Type of water system
+!-------------------------------------------------------------------------------!
